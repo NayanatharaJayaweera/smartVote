@@ -268,8 +268,7 @@ nav#filter a {
 	text-decoration: none;
 }
 
-
-.portfolio-items article img {width:100%;height: 300px;} 
+.portfolio-items article img {width:100%;} 
 
 .portfolio-item {
 	display: block;
@@ -281,6 +280,7 @@ nav#filter a {
     border: 1px solid #B3B1B1;
 }
 .portfolio-item img {
+	height:220px;
 	-webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;

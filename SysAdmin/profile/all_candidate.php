@@ -131,7 +131,7 @@ http://www.tooplate.com/view/2075-digital-team
 </section>
 
 	<div class="send" style="height:50px;width:100px;margin:20px;float:right">
-	<button type="button" class="btn btn-info">Send Link</button>
+	<button type="button" class="btn btn-info">Nofify Voters</button>
 	</div>
 </body>
 
