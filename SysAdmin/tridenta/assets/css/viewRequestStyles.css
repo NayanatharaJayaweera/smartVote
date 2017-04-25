@@ -1,0 +1,116 @@
+@import "http://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.req-table {
+  margin: 1em 0;
+  min-width: 300px;
+}
+.req-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.req-table th {
+  display: none;
+}
+.req-table td {
+  display: block;
+}
+.req-table td:first-child {
+  padding-top: .5em;
+}
+.req-table td:last-child {
+  padding-bottom: .5em;
+}
+.req-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .req-table td:before {
+    display: none;
+  }
+}
+.req-table th, .req-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .req-table th, .req-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .req-table th:first-child, .req-table td:first-child {
+    padding-left: 0;
+  }
+  .req-table th:last-child, .req-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495E;
+}
+
+.req-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+.req-table tr {
+  border-color: #46637f;
+  
+}
+.req-table th, .req-table td {
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .req-table th, .req-table td {
+    padding: 1em !important;
+  }
+}
+.req-table th, .req-table td:before {
+  color: #dd5;
+ 
+}
+#acceptBtn{
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#deleteBtn{
+	background-color: #f44336; /* red */
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn{
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    float:left;
+	margin-right:10px;
+    font-size: 16px;
+}
