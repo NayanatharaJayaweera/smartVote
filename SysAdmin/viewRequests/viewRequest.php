@@ -28,7 +28,7 @@ function myFunction1() {
     alert("Are you sure you want to DELETE this request!");
 }
 function myFunction2() {
-    alert("Are you sure you want to AACEPT this request!");
+    alert("Are you sure you want to ACCEPT this request!");
 }
 </script>
 <body>
@@ -71,7 +71,7 @@ function myFunction2() {
 <form method='POST'><table class='req-table'>
     <thead>
     <tr>
-        <th>Co-ordinater Name</th>
+        <th>Coordinater Name</th>
 			<th>Email Address</th>
 			<th>Company Name</th>
 			<th>Package</th>

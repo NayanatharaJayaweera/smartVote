@@ -63,7 +63,7 @@
 <form method='POST'><table class='req-table'>
     <thead>
     <tr>
-        <th text-align='center'>Co-ordinator Name</th>
+        <th text-align='center'>Coordinator Name</th>
         <th>Email Address</th>
         <th class='center'>Company Name</th>
         <th class='center'>Package</th>
@@ -103,7 +103,7 @@ echo"</form>";
 echo  "
  <a href='viewRequest.php'> 
     	
-  <button  type='button'  class='btn'  >Back</button> 
+  <button  type='button'  class='btn' style='margin-left:25px;' >Back</button> 
     
     </a>
     </div>";
