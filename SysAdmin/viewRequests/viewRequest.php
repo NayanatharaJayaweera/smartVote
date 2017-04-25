@@ -1,6 +1,6 @@
 <head>
 	<title> Requests </title>
-	<link rel = "stylesheet" href = "../tridenta/assets/css/viewRequestStyles.css" /> 
+	<link rel = "stylesheet" href = "../assets/css/viewRequestStyles.css" /> 
 
 	
 	<script type="text/javascript" src="../../jquery/jquery.min.js"></script>
