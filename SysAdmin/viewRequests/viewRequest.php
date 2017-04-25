@@ -23,7 +23,14 @@
 
 </head>
 
-
+<script>
+function myFunction1() {
+    alert("Are you sure you want to DELETE this request!");
+}
+function myFunction2() {
+    alert("Are you sure you want to AACEPT this request!");
+}
+</script>
 <body>
 
 <div class="navbar navbar-fixed-top" role="navigation">
@@ -92,7 +99,7 @@
 
 		echo "<a href='accepted.php?del=";
 		echo $row['requestID'];
-		echo "'><input type='button' id='acceptBtn'   value='ACCEPT' class='btn btn-success'></a>"; //Transfer0
+		echo "'><input type='button' id='acceptBtn'   value='ACCEPT' onclick='myFunction2();' class='btn btn-success'></a>"; //Transfer0
 		echo "<br>";
 		echo"</td>";
 		
@@ -103,7 +110,7 @@
 
 		echo "<a href='transfer.php?del=";
 		echo $row['requestID'];
-		echo "'><input type='button' id='deleteBtn'   value='DELETE' class='btn btn-danger'></a>"; //Transfer0
+		echo "'><input type='button' id='deleteBtn' onclick='myFunction1();'  value='DELETE' class='btn btn-danger'></a>"; //Transfer0
 		echo "<br>";
 		echo"</td>";
 		echo "</tr>";
