@@ -62,7 +62,7 @@
 	$res = mysqli_query($db,$sql) or die(mysql_error());
 	
 	if($res){
-		echo "<table class='req-table'>
+		echo "<table class='req-table' style='margin-left:30px;'>
 			<tr>
 			<th>Name</th>
 			<th>Birthday</th>
@@ -78,11 +78,7 @@
 			<td>".$row['email']."</td>
 			<td>".$row['position']."</td>
 			<td>".$row['section']."</td>
-			<td>
-			<div class='view' style='height:50px;width:100px;float:right;margin-right:20px;'>
-			<a href=profile.php?id=".$row['id']."><button name='id' type='button' class='btn btn-success'>Create Profile</button>
-			</div>
-			</td>
+			<td><a href='delete_candidate.php?del=".$row['id']."'><button name='id' type='button' class='btn btn-danger'>Remove</button></td>
 			</tr>";
 		} 
 		echo "</table>";
@@ -98,7 +94,7 @@
 </div>
 
 	<div class="view" style="height:50px;width:100px;float:right;margin-right:20px;">
-		<a href="all_candidate.php"><button type="button" class="btn btn-success">View All</button></a>
+		<a href="all_candidate.php"><button type="button" class="btn btn-success">Preview</button></a>
 	</div>
 
 </div>
