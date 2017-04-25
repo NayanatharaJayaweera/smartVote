@@ -62,7 +62,7 @@ function myFunction2() {
 		<a href="../index.html"><button  id="back" type="button" class="btn btn-danger">Back</button></a>
 	</div>
 	
-	<h3 id="header">Request</h3>
+	<h3 id="header">Requests</h3>
 	<?php
 	 require("db.php"); //provides database connection
     $sql="SELECT * FROM request ORDER BY  electionDate DESC "; //SQL query toretrieve all details from order table
