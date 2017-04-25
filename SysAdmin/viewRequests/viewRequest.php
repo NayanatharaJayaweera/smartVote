@@ -52,7 +52,7 @@
 <div class="container" id="processing" style="margin-left:10px; margin-top:50px;">
 
 <div class="back" style="height:50px;width:50px;float:right;margin-top:20px;">
-		<button onclick="goBack()" id="back" type="button" class="btn btn-danger">Back</button>
+		<a href="../index.html"><button  id="back" type="button" class="btn btn-danger">Back</button></a>
 	</div>
 	
 	<h3 id="header">Request</h3>
