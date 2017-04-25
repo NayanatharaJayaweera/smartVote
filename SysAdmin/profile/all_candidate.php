@@ -37,6 +37,30 @@ http://www.tooplate.com/view/2075-digital-team
 
 <body>
 
+<section class="navbar navbar-fixed-top custom-navbar" role="navigation" style="background-color:black;">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<!--a href="#" class="navbar-brand">Smart Vote</a-->
+		</div>
+		<!--div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">HOME</a></li>
+				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
+				<li><a href="#work" class="smoothScroll">WORK</a></li>
+				<li><a href="#pricing" class="smoothScroll">PACKAGE</a></li>
+				<li><a href="#team" class="smoothScroll">TEAM</a></li>
+				<li><a href="#portfolio" class="smoothScroll">PORTFOLIO</a></li>
+				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+			</ul>
+		</div-->
+	</div>
+</section>
+
 <div class="candidate_profile">
 	<div class="profile">
 		
