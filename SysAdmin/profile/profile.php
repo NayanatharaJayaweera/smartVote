@@ -90,8 +90,8 @@
                     <div data-scrollreveal="enter right">
                         <ul class="timeline">
                             <li class="time-label">
-                                <span class="bg-orange">Some Of My Achivements
-                                </span>
+                                <!--span class="bg-orange">
+                                </span-->
                                 <br />
                                 <br />
                             </li>
@@ -104,14 +104,14 @@
                             <li>
                                 <!--i class="fa fa-envelope bg-blue"></i-->
                                 <div class="timeline-item">
-                                    <span class="time"><i class="fa fa-clock-o"></i>20 Feburary</span>
-                                    <h3 class="timeline-header"><a href="#">Sed accumsan</a> hendrerit metus</h3>
+                                    <!--span class="time"><i class="fa fa-clock-o"></i>20 Feburary</span-->
+                                    <h3 class="timeline-header"><a href="#"><?php echo $row['name'];?></a></h3>
                                     <div class="timeline-body">
-                                        Sed accumsan venenatis blandit. Duis auctor hendrerit metus
+                                        
                                     </div>
                                     <div class='timeline-footer'>
-                                        <a class="btn btn-primary btn-xs">Share</a>
-                                        <a class="btn btn-danger btn-xs">Read More</a>
+                                        <a class="btn btn-primary btn-xs">Submit</a>
+                                        <!--a class="btn btn-danger btn-xs">Read More</a-->
                                     </div>
                                 </div>
                             </li>
