@@ -78,12 +78,12 @@
         echo"
 	
 	
-    <tr id='rowNum".$row['requestID']."'>
-	<td >".$row['coName']."</td>
-	<td >".$row['coEmail']."</td>
-	<td >".$row['companyName']."</td>
+    <tr id='rowNum".$row['co_Id']."'>
+	<td >".$row['co_name']."</td>
+	<td >".$row['co_email']."</td>
+	<td >".$row['company_name']."</td>
 	<td >".$row['package']."</td>
-	<td >".$row['electionDate']."</td>";
+	<td >".$row['election_date']."</td>";
 
         
        

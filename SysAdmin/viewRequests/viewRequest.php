@@ -65,7 +65,7 @@ function myFunction2() {
 	<h3 id="header">Requests</h3>
 	<?php
 	 require("db.php"); //provides database connection
-    $sql="SELECT * FROM request ORDER BY  electionDate DESC "; //SQL query toretrieve all details from order table
+    $sql="SELECT * FROM request ORDER BY  election_date DESC "; //SQL query toretrieve all details from order table
     $result=mysqli_query($db,$sql); // performs a query against the database
     echo "
 <form method='POST'><table class='req-table'>
@@ -84,12 +84,12 @@ function myFunction2() {
 		echo"
 	
 	
-    <tr id='rowNum".$row['coName']."'>
-	<td >".$row['coName']."</td>
-	<td >".$row['coEmail']."</td>
-	<td >".$row['companyName']."</td>
+    <tr id='rowNum".$row['co_name']."'>
+	<td >".$row['co_name']."</td>
+	<td >".$row['co_email']."</td>
+	<td >".$row['company_name']."</td>
 	<td >".$row['package']."</td>
-	<td >".$row['electionDate']."</td>";
+	<td >".$row['election_date']."</td>";
 
 
 		echo"<td  height=50px>";
@@ -98,7 +98,7 @@ function myFunction2() {
 
 
 		echo "<a href='accepted.php?del=";
-		echo $row['requestID'];
+		echo $row['req_Id'];
 		echo "'><input type='button' id='acceptBtn'   value='ACCEPT' onclick='myFunction2();' class='btn btn-success'></a>"; //Transfer0
 		echo "<br>";
 		echo"</td>";
@@ -109,7 +109,7 @@ function myFunction2() {
 
 
 		echo "<a href='transfer.php?del=";
-		echo $row['requestID'];
+		echo $row['req_Id'];
 		echo "'><input type='button' id='deleteBtn' onclick='myFunction1();'  value='DELETE' class='btn btn-danger'></a>"; //Transfer0
 		echo "<br>";
 		echo"</td>";
