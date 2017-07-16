@@ -78,7 +78,7 @@
         echo"
 	
 	
-    <tr id='rowNum".$row['co_Id']."'>
+    <tr id='rowNum".$row['election_Id']."'>
 	<td >".$row['co_name']."</td>
 	<td >".$row['co_email']."</td>
 	<td >".$row['company_name']."</td>

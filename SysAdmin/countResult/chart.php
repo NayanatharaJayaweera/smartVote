@@ -80,7 +80,7 @@ Else, you will get JavaScript errors. -->
 <?php
 
     
-    $sql = "SELECT total_votes,name FROM candidate GROUP BY name"; //sql query to get the number of orders on each day
+    $sql = "SELECT total_votes,name FROM profiledata GROUP BY name"; //sql query to get the number of orders on each day
 
     // Execute the query
     $result =mysqli_query($db,$sql);

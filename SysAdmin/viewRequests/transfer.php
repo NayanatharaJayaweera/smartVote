@@ -4,7 +4,7 @@
 	if( isset($_GET['del']) )
 	{
 		$requestID = $_GET['del']; //getting the order number of the related button in the vieworder.php
-        $sql1="INSERT INTO complete (`co_Id`,`co_name`,`co_email`,`company_name`,`package`,`election_date`) 
+        $sql1="INSERT INTO complete (`election_Id`,`co_name`,`co_email`,`company_name`,`package`,`election_date`) 
         SELECT `req_Id`,`co_name`,`co_email`,`company_name`,`package`,`election_date` FROM `request` WHERE `req_Id` = '$requestID'  "; //query to transfer details from order table to compltedorder table
 		
         $res1= mysqli_query($db,$sql1) or die("Failed".mysqli_error($db));

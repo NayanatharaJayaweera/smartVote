@@ -88,8 +88,8 @@ http://www.tooplate.com/view/2075-digital-team
 			
 			require("db/db.php");
 	
-			$sql = "SELECT * FROM candidate ORDER BY total_votes DESC ";
-	
+			$sql = "SELECT * FROM profiledata ORDER BY total_votes DESC ";
+			/* change:- profiledata -> candidate*/
 			$res = mysqli_query($db,$sql) or die(mysql_error());
 			
 			if($res){
