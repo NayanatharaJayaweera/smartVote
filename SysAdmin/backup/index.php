@@ -72,7 +72,7 @@ http://www.tooplate.com/view/2075-digital-team
 	</div>
 	
 <body>
-<div class="box">
+<!--div class="box">
 	<div class="">
  <h1>Backup</h1>
  </div>
@@ -80,14 +80,30 @@ http://www.tooplate.com/view/2075-digital-team
     <a href="backup.php"><img class="" src="../profile/media/icon.png" ></a>
    
   
-</div>
-<!--
-<div class="tile">
-    <img class="center" src="../media/restoreicon.png">
+</div-->
 
-    Restore
-    <hr class="custom">
-</div>-->
+<section id="pricing">
+	<div class="container">
+		<div class="row">
+			
+			
+			<div class="col-md-4 col-sm-6" style="margin-left:400px;">
+				<div class="plan plan-two wow bounceIn" data-wow-delay="0.3s">
+					<div class="plan_title">
+						<h2><span>BACKUP</span></h2>
+						<a href="backup.php"><img class="" src="../profile/media/icon.png" ></a>
+					
+						
+					</div>
+					
+					
+				</div>
+			</div>
+			
+		</div>
+	</div>		
+</section>
+
 </body>
 </html>
 

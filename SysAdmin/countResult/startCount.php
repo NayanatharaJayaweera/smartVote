@@ -61,14 +61,36 @@ http://www.tooplate.com/view/2075-digital-team
 	</div>
 </section>
 
-<div class="container" id="processing" style="margin-left:10px; margin-top:50px;" >
-<div class="back" style="height:50px;width:50px;float:right;margin-top:20px;">
+<div class="ba" id="processing" style="margin-left:0px; margin-top:50px;margin-bottom:120px;" >
+	<div class="back" style="height:50px;width:50px;float:right;margin-top:20px;margin-right:20px;">
 		<a href="../index.html"><button  id="back" type="button" class="btn btn-danger">Back</button></a>
 	</div>
-	<div style="height:150px;width:800px;float:left;margin-top:150px; margin-left:300px; ">
-<p style ="font-size:50px; float:left;margin-right:100px;">COUNT VOTE </p>
-<a href="viewResult.php"><input type='button' id='acceptBtn'   value='START'  class='btn btn-success' style="width:150px;height:40px; font-size:25px;padding:0px;"></a>
 </div>
-</div>
+	<!--div style="height:150px;width:800px;float:left;margin-top:150px; margin-left:300px; ">
+		<p style ="font-size:50px; float:left;margin-right:100px;">COUNT VOTE </p>
+		<a href="viewResult.php"><input type='button' id='acceptBtn'   value='START'  class='btn btn-success' style="width:150px;height:40px; font-size:25px;padding:0px;"></a>
+	</div-->
+	
+<section id="work">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<!--div class="section-title">
+					<strong>Election Result</strong>
+					<h1 class="heading bold">WHAT WE DO</h1>
+					<hr>
+				</div-->
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s" style="margin-left:400px;">
+				<i class="icon-mobile medium-icon"></i>
+					<h3>Count Election Results</h3>
+					<hr>
+					<p><a href="viewResult.php"><input type='button' id='acceptBtn'   value='START '  class='btn btn-info' style="width:150px;height:40px; font-size:25px;padding:0px;"></a> </p>
+			</div>
+			
+		</div>
+	</div>
+</section>
 </body>
 </html>
